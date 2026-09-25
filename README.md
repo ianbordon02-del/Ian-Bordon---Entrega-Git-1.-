@@ -1,11 +1,17 @@
-# Tienda de Ropa Online - Estructura Base
+# IDENTA - ROPA PERSONALIZADA
 
-## Descripción
-Este proyecto consiste en la estructura base y la infraestructura de gestión para una tienda de ropa online. Incluye la navegación principal entre las secciones de inicio, productos, galería, clientes y contactos.
+Sitio web oficial de Identa, una tienda online dedicada a la venta de indumentaria y prendas personalizadas. El sitio cuenta con una estructura base organizada para navegar entre catálogo, contacto y redes sociales.
 
-## Tecnologías Utilizadas
-* HTML5
-* Git y GitHub
+**Lista de Tecnologías**
 
-## Como empezar
-1. Abre el archivo `index.html` en tu navegador para ver la tienda.
+1. HTML5
+2. CSS3
+3. Git y GitHub
+4. Visual Studio Code
+
+---
+
+## Cómo empezar
+
+1. Clickear enlace en "About" (si está disponible en el repositorio)
+2. Clonar el repositorio y ejecutar archivo index.html en tu navegador web para visualizar la tienda.
