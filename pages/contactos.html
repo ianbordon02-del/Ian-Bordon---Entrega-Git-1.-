@@ -7,18 +7,32 @@
 </head>
 <body>
     <h1>Contacto</h1>
-    <a href="../index.html">Inicio</a>
-            <a href="./pages/productos.html">Productos</a>
-            <a href="./pages/galeria.html">Galeria</a>
-            <a href="./pages/clientes.html">Clientes</a>
-            <a href="./pages/contactos.html">Contactos</a>
-    <ul> 
-    <li> Inicio</li>
-    <li>Contacto</li>
-    <li>Galeria</li>
-    <li>Clientes</li>
-    <li>Productos</li>
-</ul>
-    
+<nav>
+    <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./galeria.html">Galería</a></li>
+        <li><a href="./clientes.html">Clientes</a></li>
+        <li><a href="./contactos.html"><strong>Contactos</strong></a></li>
+    </ul>
+</nav>
+    <form action="#" method="POST">
+    <!-- Campo: Nombre -->
+    <div class="grupo-formulario">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+    </div>
+
+    <!-- Campo: Correo Electrónico -->
+    <div class="grupo-formulario">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+    </div>
+
+    <!-- Botón de Envío -->
+    <div class="grupo-formulario">
+        <button type="submit">Enviar mensaje</button>
+    </div>
+</form>
 </body>
 </html>
